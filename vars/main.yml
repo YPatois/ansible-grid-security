@@ -6,50 +6,64 @@ pass: "*NP*"
 shell: /bin/bash
 grid_groups:
   dteam:
-    gid: 15000
+    gid: 16000
   dteampj:
-    gid: 15001
+    gid: 16001
 grid_users:
   dteam001:
-    uid: 15001
+    uid: 16001
     group: dteam
     groups: dteam
   dteam002:
-    uid: 15002
+    uid: 16002
     group: dteam
     groups: dteam
   dteam003:
-    uid: 15003
+    uid: 16003
     group: dteam
     groups: dteam
   dteam004:
-    uid: 15004
+    uid: 16004
     group: dteam
     groups: dteam
   dteam005:
-    uid: 15005
+    uid: 16005
     group: dteam
     groups: dteam
   dteampj001:
-    uid: 15101
+    uid: 16101
     group: dteampj
     groups: dteampj,dteam
   dteampj002:
-    uid: 15102
+    uid: 16102
     group: dteampj
     groups: dteampj,dteam
   dteampj003:
-    uid: 15103
+    uid: 16103
     group: dteampj
     groups: dteampj,dteam
   dteampj004:
-    uid: 15104
+    uid: 16104
     group: dteampj
     groups: dteampj,dteam
   dteampj005:
-    uid: 15105
+    uid: 16105
     group: dteampj
     groups: dteampj,dteam
+
+vos:
+  - vo.sbg.in2p3.fr
+home: /home
+pass: "*NP*"
+shell: /bin/bash
+grid_groups:
+  sbg:
+    gid: 311000
+grid_users:
+  sbg001:
+    uid: 311001
+    group: sbg
+    groups: sbg
 
 
 argus_server: sbgargus1.in2p3.fr
