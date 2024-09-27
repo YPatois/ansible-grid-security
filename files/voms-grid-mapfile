@@ -4,4 +4,14 @@
 "/dteam" .dteam
 "/dteam/*/Role=NULL/Capability=NULL" .dteam
 "/dteam/*" .dteam
+"/vo.sbg.in2p3.fr" .sbg
+"/vo.sbg.in2p3.fr/Role=NULL" .sbg
+"/vo.sbg.in2p3.fr/Role=NULL/Capability=NULL" .sbg
+"/vo.sbg.in2p3.fr/fluka" .sbgmbp
+"/vo.sbg.in2p3.fr/fluka/Role=NULL" .sbgmbp
+"/vo.sbg.in2p3.fr/fluka/Role=NULL/Capability=NULL" .sbgmbp
+"/vo.sbg.in2p3.fr/mcnp" .sbglbp
+"/vo.sbg.in2p3.fr/mcnp/Role=NULL" .sbglbp
+"/vo.sbg.in2p3.fr/mcnp/Role=NULL/Capability=NULL" .sbglbp
+
 
